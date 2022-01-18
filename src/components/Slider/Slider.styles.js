@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: var(--lightbrown);
   padding-bottom: 64px;
-  padding-top: 64px;
 `;
 
 export const Content = styled.div`
@@ -25,9 +23,10 @@ export const Content = styled.div`
     padding: 15px;
 
     font-weight: 100;
-    font-size: var(--fontMed);
+    font-size: 2rem;
     font-family: "Avenir Light", serif;
     @media screen and (max-width: 720px) {
+      font-size: var(--fontMed);
       font-size: 1rem;
     }
   }
@@ -35,9 +34,10 @@ export const Content = styled.div`
 export const CardWrapper = styled.div`
   overflow: hidden;
   padding: 0 0 32px;
-  margin: 0px 24px 24px;
+  margin: 24px;
   background: var(--white);
-  width: 350px;
+  width: 400px;
+  justify-content: center;
   z-index: 1;
 `;
 export const Text = styled.div`
@@ -55,7 +55,7 @@ export const Text = styled.div`
     }
   }
   p {
-    font-size: var(--fontSmall);
+    font-size: var(--fontMed);
     font-weight: 700;
     @media screen and (max-width: 720px) {
       font-size: var(--fontSmall);
@@ -102,6 +102,9 @@ export const CardHeading = styled.h1`
   font-weight: 100;
   font-size: 2rem;
   font-family: "Avenir Light", serif;
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 export const CardBody = styled.div`

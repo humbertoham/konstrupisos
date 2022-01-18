@@ -9,9 +9,13 @@ import Burger from "./Burger";
 import Menu from "./Menu";
 import About from "./About";
 import FocusLock from "react-focus-lock";
-import Slogan from "./Slogan";
+
 import Doing from "./Doing";
 import Separator from "./Separator";
+import Slider from "./Slider";
+import Contact from "./Contact";
+import Map from "./Map";
+
 const Home = () => {
   const [open, setOpen] = useState(false);
   const node = useRef();
@@ -27,10 +31,13 @@ const Home = () => {
           </FocusLock>
         </div>
         <Banner />
-        <Slogan />
+
         <Doing />
         <Separator />
+        <Slider />
         <About />
+        <Contact />
+        <Map />
       </>
     </ThemeProvider>
   );

@@ -23,13 +23,13 @@ const Banner = () => {
           <Logo href="/">
             <LogoN src={logokons} />
           </Logo>
-          <h1>Diseño y construcción de pisos</h1>
+          <h1>Diseño y construcción de pisos y pavimentos de concreto</h1>
           <p>
             "La calidad nunca es un accidente. Siempre es el resultado de un
             esfuerzo inteligente”. – John Ruskin
           </p>
           <section id="section05" class="demo">
-            <a href="#slogan">
+            <a href="#doing">
               <span></span>
             </a>
           </section>

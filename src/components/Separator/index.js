@@ -12,7 +12,9 @@ const Separator = () => {
     <Wrapper>
       <Container imgUrl={image}>
         <Text>
-          <h1>Estos son algunos ejemplos de nuestros trabajos</h1>
+          <h1>Nuestro trabajo</h1>
+          <p>Aquí nuestros más recientes proyectos</p>
+          <div className="dividerw"></div>
         </Text>
       </Container>
     </Wrapper>

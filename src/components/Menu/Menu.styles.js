@@ -22,7 +22,7 @@ export const StyledMenu = styled.nav`
 
   a {
     font-size: var(--fontBig);
-    font-family: "Poppins";
+    font-family: "Avenir Light", serif;
     padding: 2rem 0;
     font-weight: 600;
     color: var(--black);

@@ -1,30 +1,17 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  padding: 75px;
-  box-sizing: border-box;
-
-  background: var(--brown);
+  overflow: hidden;
 `;
 
 export const Content = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  @media screen and (max-width: 720px) {
-    display: block;
-  }
-  ::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  padding: 75px;
 `;
 export const Box = styled.div`
   margin: 25px;
   text-align: center;
-  float: left;
-  width: 33.33333%;
+  float: right;
+  width: 50%;
   padding: 25px;
   @media screen and (max-width: 720px) {
     width: auto;
@@ -35,8 +22,8 @@ export const Box = styled.div`
 
 export const Text = styled.div`
   float: left;
-  width: 66.66666%;
-  padding: 25px;
+  width: 100%;
+  padding: 50px;
   max-width: 500px;
   animation: slide-top 1s;
   @keyframes slide-top {
@@ -52,10 +39,11 @@ export const Text = styled.div`
 
   h1 {
     font-family: "Avenir Light", serif;
-    font-size: var(--fontSuperBig);
+    font-size: var(--fontBig);
     color: var(--yellow);
+    text-align: center;
     @media screen and (max-width: 720px) {
-      font-size: var(--fontBig);
+      font-size: var(--fontMed);
     }
   }
   p {
@@ -63,6 +51,7 @@ export const Text = styled.div`
     color: var(--white);
     font-size: var(--fontMed);
     flex-wrap: nowrap;
+    font-weight: 100;
     @media screen and (max-width: 720px) {
       font-size: var(--fontSmall);
     }

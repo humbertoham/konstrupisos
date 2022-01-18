@@ -2,7 +2,12 @@ import React from "react";
 import { bool } from "prop-types";
 import { StyledMenu } from "./Menu.styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faHome,
+  faInfo,
+  faUser,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Menu = ({ open, ...props }) => {
   const isHidden = open ? true : false;
@@ -18,7 +23,7 @@ const Menu = ({ open, ...props }) => {
         Acerca de
       </a>
       <a href="#contact" tabIndex={tabIndex}>
-        <FontAwesomeIcon className="user" icon={faEnvelope} size="1x" />
+        <FontAwesomeIcon className="user" icon={faInfo} size="1x" />
         Información laboral
       </a>
       <a href="#contact" tabIndex={tabIndex}>

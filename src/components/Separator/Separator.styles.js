@@ -34,29 +34,36 @@ export const Text = styled.div`
   max-width: 450px;
   margin: auto;
   position: relative;
-  top: 100%;
-  -ms-transform: translateY(100%);
-  transform: translateY(100%);
+  top: 55%;
+  -ms-transform: translateY(55%);
+  transform: translateY(55%);
 
   h1 {
     font-family: "Avenir Light", serif;
-    font-size: 2rem;
-
+    font-size: 3rem;
+    font-weight: 900;
     color: var(--white);
     text-align: center;
     @media screen and (max-width: 720px) {
-      font-size: var(--fontMed);
+      font-size: var(--fontBig);
     }
   }
   p {
-    color: var(--black);
+    color: var(--white);
     font-size: var(--fontBig);
     flex-wrap: nowrap;
-
+    text-align: center;
+    font-weight: 100;
+    font-family: "Avenir Light", serif;
     @media screen and (max-width: 720px) {
       font-size: var(--fontMed);
-      text-align: left;
+      text-align: center;
     }
+  }
+  @media screen and (max-width: 720px) {
+    top: 65%;
+    -ms-transform: translateY(65%);
+    transform: translateY(65%);
   }
 `;
 export const Message = styled.a`

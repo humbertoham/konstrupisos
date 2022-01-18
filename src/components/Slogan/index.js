@@ -13,7 +13,7 @@ const Slogan = () => {
     <Wrapper id="slogan">
       <Content data-aos="fade-right">
         <Text>
-          <h1>Diseño y construcción de pisos</h1>
+          <h1>Diseño y construcción de pisos y pavimentos de concreto</h1>
         </Text>
         <MapC className="right" data-aos="fade-up">
           <Map src={MapP} />

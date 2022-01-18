@@ -37,6 +37,7 @@ export const Text = styled.div`
   margin: auto;
 
   h1 {
+    padding: 10px;
     font-size: var(--fontBig);
     color: var(--white);
     font-weight: 100;
@@ -45,6 +46,7 @@ export const Text = styled.div`
     }
   }
   p {
+    padding: 10px;
     font-size: var(--fontMed);
     color: var(--white);
     font-weight: 100;
