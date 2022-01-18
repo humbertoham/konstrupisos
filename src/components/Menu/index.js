@@ -22,7 +22,7 @@ const Menu = ({ open, ...props }) => {
         <FontAwesomeIcon className="user" icon={faUser} size="1x" />
         Acerca de
       </a>
-      <a href="#contact" tabIndex={tabIndex}>
+      <a href="#info" tabIndex={tabIndex}>
         <FontAwesomeIcon className="user" icon={faInfo} size="1x" />
         Información laboral
       </a>

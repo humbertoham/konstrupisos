@@ -6,9 +6,9 @@ import { faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   return (
-    <Wrapper id="contact">
+    <Wrapper>
       <Content id="one">
-        <Text>
+        <Text id="info">
           <h1>Información personal</h1>
           <p>• Nombre: Ing. Antonio Morales Murguía</p>
           <p>• Edo civil: Casado</p>
@@ -25,7 +25,7 @@ const Contact = () => {
         </Text>
       </Content>
       <Content id="two">
-        <Text data-aos="fade-right">
+        <Text id="contact" data-aos="fade-right">
           <h1>Contáctanos</h1>
           <p>
             {" "}
