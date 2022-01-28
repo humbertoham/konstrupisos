@@ -9,12 +9,9 @@ const Contact = () => {
     <Wrapper>
       <Content id="one">
         <Text id="info">
-          <h1>Información personal</h1>
-          <p>• Nombre: Ing. Antonio Morales Murguía</p>
-          <p>• Edo civil: Casado</p>
-          <p>• Nacionalidad: Mexicano </p>
-          <p>• Lugar de Nac. Veracruz, Ver.</p>
+
           <h1>Información laboral</h1>
+          <p>• Nombre: Ing. Antonio Morales Murguía</p>
           <p>• RFC: MOMA730702 9H7 </p>
           <p>• CURP: MOMA 730702HVZRRN08 </p>
           <p>• Registro patronal IMSS: F3023104109 </p>

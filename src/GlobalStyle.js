@@ -536,4 +536,20 @@ margin-right: 10px;
 .swiper-pagination-bullet-active {
     opacity: 1;
 }
+.watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+.watermarkp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--yellow);
+  font-size: 18px;
+  pointer-events: none;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+}
 `;
