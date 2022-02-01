@@ -141,11 +141,12 @@ export const CardOptionsNote = styled.small`
 export const Page = styled.img`
   display: block;
   height: 200px;
-  width: 400px;
+  width: 300px;
   margin: auto;
   padding: 0px 30px;
+  border-radius: 50%;
+
   @media screen and (max-width: 720px) {
-    width: 100%;
   }
 `;
 

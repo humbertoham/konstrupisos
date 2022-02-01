@@ -14,7 +14,12 @@ import {
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import Pavimento from "../../images/pavimentos.jpg";
+import Pulido from "../../images/pulido.jpg";
+import Oxidado from "../../images/oxidado.jpg";
+import Estampado from "../../images/estampado.jpg";
+import Trabajadores from "../../images/trabajadores.jpg";
+import Comercial from "../../images/comercial.jpg";
 import {
   faDraftingCompass,
   faHardHat,
@@ -41,7 +46,8 @@ const Doing = () => {
       <div className="container">
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faWrench} size="3x" />
+            <Page src={Pavimento} />
+
             <CardHeading>Pavimentos</CardHeading>
           </CardHeader>
           <CardBody>
@@ -56,11 +62,8 @@ const Doing = () => {
         </CardWrapper>
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <FontAwesomeIcon
-              className="Icon"
-              icon={faDraftingCompass}
-              size="3x"
-            />
+            <Page src={Pulido} />
+
             <CardHeading>
               Concreto pulido o pisos industriales y comerciales
             </CardHeading>
@@ -79,7 +82,7 @@ const Doing = () => {
         </CardWrapper>
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faTools} size="3x" />
+            <Page src={Estampado} />
             <CardHeading>Concreto estampado</CardHeading>
           </CardHeader>
           <CardBody>
@@ -97,7 +100,7 @@ const Doing = () => {
 
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faPencilRuler} size="3x" />
+            <Page src={Oxidado} />
             <CardHeading>Concreto oxidado</CardHeading>
           </CardHeader>
           <CardBody>
@@ -113,7 +116,7 @@ const Doing = () => {
         </CardWrapper>
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faHardHat} size="3x" />
+            <Page src={Trabajadores} />
             <CardHeading>Constructores experimentados</CardHeading>
           </CardHeader>
           <CardBody>
@@ -128,7 +131,7 @@ const Doing = () => {
         </CardWrapper>
         <CardWrapper data-aos="fade-up">
           <CardHeader>
-            <FontAwesomeIcon className="Icon" icon={faBuilding} size="3x" />
+            <Page src={Comercial} />
             <CardHeading>Construcción comercial</CardHeading>
           </CardHeader>
           <CardBody>
